@@ -1,0 +1,15 @@
+Start
+  ↓
+Assign Initial Strategies
+  ↓
+Compute Utilities
+  ↓
+Check Best Response
+  ↓
+Strategy Update?
+  ↓        ↓
+Yes        No
+ ↓          ↓
+Update     Converged (Nash Equilibrium)
+ ↓
+Repeat
