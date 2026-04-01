@@ -1,0 +1,10 @@
+fairness = [0.6, 0.75, 0.9]
+
+plt.plot(algorithms, fairness, marker='o')
+plt.title("Fairness Comparison (Jain’s Index)")
+plt.xlabel("Scheduling Algorithm")
+plt.ylabel("Fairness Index")
+plt.grid()
+
+plt.savefig("fairness.png")
+plt.show()
