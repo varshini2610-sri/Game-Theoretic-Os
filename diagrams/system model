@@ -1,0 +1,20 @@
++-------------------+
+|   Processes (P1..Pn) |
+| Strategy: Low/Med/High |
++-------------------+
+          ↓
++-------------------+
+|   Scheduler       |
+| (FCFS / RR / Priority) |
++-------------------+
+          ↓
++-------------------+
+|   CPU Allocation  |
++-------------------+
+          ↓
++-------------------+
+| Performance Metrics |
+| Waiting Time        |
+| Turnaround Time     |
+| Utility             |
++-------------------+
