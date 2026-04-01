@@ -1,0 +1,10 @@
+welfare = [60, 75, 95]
+
+plt.plot(algorithms, welfare, marker='o')
+plt.title("Social Welfare Comparison")
+plt.xlabel("Scheduling Algorithm")
+plt.ylabel("Total Utility")
+plt.grid()
+
+plt.savefig("welfare.png")
+plt.show()
