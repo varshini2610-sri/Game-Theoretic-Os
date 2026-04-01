@@ -1,0 +1,10 @@
+turnaround_time = [40, 32, 25]
+
+plt.plot(algorithms, turnaround_time, marker='o')
+plt.title("Turnaround Time Comparison")
+plt.xlabel("Scheduling Algorithm")
+plt.ylabel("Turnaround Time")
+plt.grid()
+
+plt.savefig("turnaround_time.png")
+plt.show()
