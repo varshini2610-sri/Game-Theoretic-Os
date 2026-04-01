@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+algorithms = ['FCFS', 'Round Robin', 'Game-Theoretic']
+waiting_time = [25, 18, 12]
+
+plt.plot(algorithms, waiting_time, marker='o')
+plt.title("Waiting Time Comparison")
+plt.xlabel("Scheduling Algorithm")
+plt.ylabel("Average Waiting Time")
+plt.grid()
+
+plt.savefig("waiting_time.png")
+plt.show()
